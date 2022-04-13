@@ -36,6 +36,7 @@ const inverseCaptcha = (input) => {
 	return result;
 };
 
+// Comment out this chunk if you want to run the test suite
 fs.readFile("./input.txt", "utf-8", (err, puzzleInput) => {
 	if (err) {
 		console.log(err);

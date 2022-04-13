@@ -1,4 +1,4 @@
-const inverseCaptcha = require(".");
+const inverseCaptcha = require("..");
 
 describe("inverseCaptcha", () => {
 	describe("Single Digits", () => {
